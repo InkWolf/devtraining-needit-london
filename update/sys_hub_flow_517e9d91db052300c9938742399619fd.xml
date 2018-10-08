@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="sys_hub_flow">
+    <sys_hub_flow action="INSERT_OR_UPDATE">
+        <access>public</access>
+        <active>false</active>
+        <annotation/>
+        <category/>
+        <copied_from/>
+        <copied_from_name/>
+        <description>Flow to find  NeedIt Tasks older than the number of days in the  auto close  application property, close them,  and open a follow up tasks for management</description>
+        <internal_name>find_and_close_overdue_needit_tasks</internal_name>
+        <label_cache>[{"name":"ca31cb79-ed21-4698-b0ac-7c1837d12de0.item","label":"4➛NeedIt Task Record","reference":"x_58872_needit_needit_task","reference_display":"NeedIt Task","type":"reference","base_type":"reference"},{"name":"c6279c30-7981-4a31-85f8-effcab99a609.Count","label":"3➛Count","reference_display":"Count","type":"integer","base_type":"integer"},{"name":"c6279c30-7981-4a31-85f8-effcab99a609.Table","label":"3➛Table","reference_display":"Table","type":"table_name","base_type":"table_name"},{"name":"c6279c30-7981-4a31-85f8-effcab99a609.Records","label":"3➛NeedIt Task Records","reference":"x_58872_needit_needit_task","reference_display":"NeedIt Task","type":"records","base_type":"records"},{"name":"24d02600-934f-4652-bcad-f0340d30c800.Table","label":"3➛Table","reference_display":"Table","type":"table_name","base_type":"table_name"},{"name":"24d02600-934f-4652-bcad-f0340d30c800.Record","label":"3➛Record","reference_display":"Record","type":"document_id","base_type":"document_id"},{"name":"608c4fb2-34d3-474b-b9eb-2662c6149ebd.record","label":"1➛Record","reference_display":"Record","type":"document_id","base_type":"document_id"},{"name":"608c4fb2-34d3-474b-b9eb-2662c6149ebd.table_name","label":"1➛Table","reference_display":"Table","type":"table_name","base_type":"table_name"},{"name":"0608c67d-e6dc-4e80-8d8e-d9d5788f5376.property_value","label":"1➛Property value","type":"string","base_type":"string"},{"name":"2b433acc-9e3b-483e-9ae7-17055594050d.calculated_date","label":"2➛Calculated date","type":"glide_date","base_type":"glide_date"},{"name":"ca31cb79-ed21-4698-b0ac-7c1837d12de0.item.number","label":"4➛NeedIt Task Record➛Number","reference":"","reference_display":"Number","type":"string","base_type":"string","parent_table_name":"x_58872_needit_needit_task","column_name":"number"},{"name":"ca31cb79-ed21-4698-b0ac-7c1837d12de0.item.due_date","label":"4➛NeedIt Task Record➛Due date","reference":"","reference_display":"Due date","type":"glide_date_time","base_type":"glide_date_time","parent_table_name":"x_58872_needit_needit_task","column_name":"due_date"}]</label_cache>
+        <latest_snapshot/>
+        <master_snapshot/>
+        <name>Find and Close Overdue NeedIt Tasks</name>
+        <outputs/>
+        <remote_trigger_id/>
+        <sc_callable>false</sc_callable>
+        <show_draft_actions>false</show_draft_actions>
+        <show_triggered_flows>false</show_triggered_flows>
+        <status>draft</status>
+        <sys_class_name>sys_hub_flow</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2018-10-08 15:44:02</sys_created_on>
+        <sys_id>517e9d91db052300c9938742399619fd</sys_id>
+        <sys_mod_count>3</sys_mod_count>
+        <sys_name>Find and Close Overdue NeedIt Tasks</sys_name>
+        <sys_package display_value="NeedIt" source="x_58872_needit">6ead8e780f603200cd674f8ce1050ed1</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="NeedIt">6ead8e780f603200cd674f8ce1050ed1</sys_scope>
+        <sys_update_name>sys_hub_flow_517e9d91db052300c9938742399619fd</sys_update_name>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2018-10-08 15:51:43</sys_updated_on>
+        <type>flow</type>
+    </sys_hub_flow>
+    <sys_translated_text action="delete_multiple" query="documentkey=517e9d91db052300c9938742399619fd"/>
+    <sys_variable_value action="delete_multiple" query="document_key=517e9d91db052300c9938742399619fd"/>
+</record_update>
